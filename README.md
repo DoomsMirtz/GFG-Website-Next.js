@@ -1,3 +1,23 @@
+# READ BEFORE STARTING
+
+## There are a few things different in NextJS to keep in mind before starting.
+
+1. All the CSS file imports should be done only in the _app.js file and nowhere else.
+2. Just like in React, export the components and add them in the index.js file. The Navbar file has already been added so use it as an example.
+3. The SVG dependencies have been added. So if you get the following error: 
+ `You may need an appropriate loader to handle this file type.`
+ Feel free to contact us. Though the dependencies have been added and this error should not come, still if it does, feel free to ask us.
+ 
+4. Thats about it, fork the repo, clone it on your local machine and start working.
+
+## How to start with NextJS
+
+1. After cloning the repo, run `npm install`
+2. to start the dev server, either run `npx next dev` or `npm run dev`. Both work just fine.
+3. Your local development server should be up and running at `localhost:3000`.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
