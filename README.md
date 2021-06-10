@@ -12,7 +12,7 @@
 
 ## How to start with NextJS
 
-1. After cloning the repo, run `npm install`
+1. After cloning the repo, run `npm install next react react-dom`
 2. to start the dev server, either run `npx next dev` or `npm run dev`. Both work just fine.
 3. Your local development server should be up and running at `localhost:3000`.
 
