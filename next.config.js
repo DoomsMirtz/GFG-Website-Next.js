@@ -1,10 +1,16 @@
-module.exports = {
-    webpack(config) {
-      config.module.rules.push({
-        test: /\.svg$/,
-        use: ["@svgr/webpack"]
-      });
+// module.exports = {
+//     webpack(config) {
+//       config.module.rules.push({
+//         test: /\.svg$/,
+//         images : {
+//           domains: ["localhost:3000"]
+//       },
+//         use: ["@svgr/webpack"]
+//       });
   
-      return config;
-    }
-  };
+//       return config;
+//     }
+//   };
+
+const withImages = require('next-images')
+module. exports = withImages()

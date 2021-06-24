@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './resources/logo-3.svg';
+import Image from 'next/image';
 
 // import { Toggle } from '../ToggleSwitch'
 
@@ -22,8 +23,6 @@ class Navbar extends Component {
             navbar.classList.remove("sticky");
             logo.classList.remove("make-smaller");
             // listItem.style.color="#343434";
- 
-
          }
       }
 
